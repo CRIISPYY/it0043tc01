@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-size: cover;
+    background-image: url(Apexl.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.heading{
+    font-size: 2.5rem;
+    color:white; 
+    font-family: "Roboto";
+}
+
+
+.subheading{
+    font-size: 1.5rem;
+    color:whitesmoke;
+    font-family: "Roboto";
+}
+
+p{
+    margin-bottom: 8;
+    font-family: "Anton";
+    color:black;
+}
+
+.white{
+    font-weight: Bold;
+    color: white;
+    font-family: "Roboto";
+}
+
+.Thirdheading{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: white;
+    font-family: "Roboto";
+}
+
+.Blue{
+    font-weight: Bold;
+    color: blue;
+    font-family:"Roboto";
+    font-size: 1.3rem;
+}
+
+img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    right: -40;
+}
