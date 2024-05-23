@@ -1,22 +1,151 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Press+Start+2P&family=VT323&display=swap');
 
 body{
     background-size: cover;
-    background-image: url(BLAH.png);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/91e01bf4-9894-489b-8d7c-eaa04ccf8678/dg2p570-fb02ca0a-7a10-4f90-bee2-5378d553b0ca.png/v1/fill/w_1280,h_1600,q_80,strp/pokeball_pattern_by_ladylitart_dg2p570-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcLzkxZTAxYmY0LTk4OTQtNDg5Yi04ZDdjLWVhYTA0Y2NmODY3OFwvZGcycDU3MC1mYjAyY2EwYS03YTEwLTRmOTAtYmVlMi01Mzc4ZDU1M2IwY2EucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N7iynGIe_l-Uqgr4SNTEhb27vbjxXkxTZ7nePjdNQW8);
     background-repeat: no-repeat;
     text-align: center;
-    font-family: "Anton";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "VT323";
+    text-shadow: 2px 2px 5px black;
 }
 
-.heading{
-    font-size: 2.5rem;
-    color:black; 
+p {
+    color: white;
 }
 
-.subheading{
-    font-size: 1.2rem;
-    color:whitesmoke;
+.Pokemon {
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(10px 10px 5px black);
 }
 
-.
+.card {
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(Pokeball.jpg);
+    background-position: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.card:hover {
+    box-shadow: ;
+}
+
+.name {
+    color: beige;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.Button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px black;
+    size: 10px;
+    
+}
+
+.add {
+    background-color: cornflowerblue;
+    font-family: "VT323";
+    border-radius: 300px;
+}
+
+.add:hover {
+    box-shadow: 0 6px 14px;
+}
+
+.release {
+    background-color: red;
+    font-family: "VT323";
+    border-radius: 300px;
+}
+
+.release:hover {
+    box-shadow: 0 6px 14px;
+}
+
+
+
+///////////////////////////////////////////////////////
+
+.grass {
+    background-color: greenyellow;
+}
+
+.poison {
+    background-color: blueviolet;
+}
+
+.Grass-main {
+    background-color: green;
+}
+
+.Water-main {
+    background-color: aqua;
+}
+
+.fire {
+    background-color: rgb(176, 4, 4);
+}
+
+.flying {
+    background-color: orange;
+}
+
+.firetype {
+    background-color: red;
+}
+
+.grasstype{
+    background-color: lightgreen;
+}
+
+.watertype {
+    background-color: blue;
+}
+
+.ghosttype {
+    background-color: blueviolet;
+}
+
+.dragontype {
+    background-color: darkblue;
+}
+
+.electric {
+    background-color: rgb(220, 220, 13);
+}
+
+.electrictype {
+    background-color: rgb(199, 199, 1);
+}
+
+.Dark-main {
+    background-color: rgb(50, 46, 46);
+}
+
+.Dragon-main {
+    background-color: rgb(33, 33, 72);
+}
+
+.Psychic-main {
+    background-color: rgb(223, 101, 122);
+}
+
+.Psychictype {
+    background-color: pink;
+}
