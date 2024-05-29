@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  display: none;
+  text-shadow: 2px 2px #000000;
+}
+
+.container {
+  background-image: url(img/4a0ab1cd-e0cd-4346-9673-92789be1be5d.jpg);
+  background-position: center ;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  flex-grow: 1;
+  margin: 10px;
+  width: 20%;
+  padding: 20px;
+  transition: background-image 0.8s ease, transform 0.8s ease;
+}
+
+.type {
+  display: none;
+}
+
+
+
+#box {
+  display: none;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 720px) {
+  h1 {
+    align-items: center;
+    display: block;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .card {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    transition: background-image 1s ease, transform 1s ease;
+  }
+
+  .card img {
+    width: 20%;
+    align-items: start;
+    transition: transform 0.8s ease;   
+  }
+
+  .card:hover {
+    background-size: cover;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-vector/comic-style-background-flat-design_52683-53321.jpg');
+  }
+
+  #box{
+    display: block;
+  }
+
+}
+
+@media (max-width: 510px) {
+  h1 {
+    align-items: center;
+    display: block;
+  }
+
+  .type {
+
+    align-items: center;
+    display: block;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .Grasstype { background-color: rgba(0, 241, 16, 0.7); }
+  .Poisontype { background-color: rgba(200, 33, 167, 0.7); }
+  .Firetype {background-color: rgb(107, 5, 5);}
+  .Normaltype {background-color: rgb(189, 189, 167);}
+  .Watertype {background-color: rgb(0, 0, 51);}
+  .Bugtype {background-color: darkgreen;}
+  .Flyingtype {background-color: aqua;}
+  .Ghosttype {background-color: rgb(62, 2, 118);}
+  .Psychictype {background-color: pink;}
+  .Electrictype {background-color: rgb(255, 185, 54);}
+  .
+
+  .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 75vw;
+  }
+
+  .card{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      display: flex;
+      transition: background-image 0.8s ease, transform 0.8s ease;
+  }
+  .card img { 
+      width: 40%;
+      align-items: center;
+      transition: transform s ease;
+          
+  }
+  #box{
+      display: none;
+  }
+  .card:hover {
+      background-image: url('https://img.freepik.com/free-vector/comic-style-background-flat-design_52683-53321.jpg');
+      background-size: cover;
+      align-items: center;
+  }
+
+  .Grasstype {
+    align-items: center;
+    display: block;
+    color: white;
+    background-color: rgba(0, 241, 16, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+}
+
+
+#Yellow-main {
+  background-color: rgb(210, 210, 0);
+}
+
+#Red-main {
+  background-color: red;
+}
+
+#Normal-main {
+  background-color: rgb(180, 180, 180);
+}
+
+#Lightblue-main {
+  background-color: lightseagreen;
+}
+
+#Blue-main {
+  background-color: blue;
+}
+
+#Green-main {
+  background-color: greenyellow;
+}
+
+#Violet-main {
+  background-color: blueviolet;
+}
+
+#Brown-main {
+  background-color: rgb(190, 99, 24);
+}
+
+#Orange-main {
+  background-color: orange;
+}
+
+#Gold-main {
+  background-color: gold;
+}
+
+#Lightviolet-main {
+  background-color: rgb(236, 185, 236);
+}
