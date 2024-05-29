@@ -30,8 +30,6 @@ h1 {
   display: none;
 }
 
-
-
 #box {
   display: none;
 }
@@ -52,7 +50,6 @@ h1 {
     align-items: center;
     display: block;
   }
-
 
   .container {
     display: flex;
