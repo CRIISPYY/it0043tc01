@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="samp.css">
+<title>Flexbox Simulator</title>
+</head>
+<body>
+<div class="container">
+    <button class="btn reset" onclick="fullreset()">Reset Flexbox</button>
+    <input type="number" id="gap" placeholder="Gap in pixels">
+    <button class="btn" onclick="gap()">Set Gap</button>
+
+    <h3 class="flexdir">Flex Direction</h3>
+    <button class="btn" onclick="flxdirection(1)">Row</button>
+    <button class="btn" onclick="flxdirection(2)">Column</button>
+
+    <h2 class="">Justify content</h2>
+    <button class="btn" onclick="justifycont(1)">Start</button>
+    <button class="btn" onclick="justifycont(2)">Center</button>
+    <button class="btn" onclick="justifycont(3)">End</button>
+    <button class="btn" onclick="justifycont(4)">Space Between</button>
+    <button class="btn" onclick="justifycont(5)">Space Around</button>
+    <button class="btn" onclick="justifycont(6)">Space Evenly</button>
+
+    <h3 class="align">Align Items</h3>
+    <button class="btn" onclick="alignitems(1)">Start</button>
+    <button class="btn" onclick="alignitems(2)">Center</button>
+    <button class="btn" onclick="alignitems(3)">End</button>
+
+    <h3 class="align">FlexGrow</h3>
+    <button class="btn resetGrow" onclick="flexgrow(0)">Reset</button>
+    <input type="number" id="grow1" placeholder="Grow B-1">
+    <button class="btn growBtn" onclick="flexgrow(1)">Grow B-1</button>
+    <input type="number" id="grow2" placeholder="Grow B-2">
+    <button class="btn growBtn" onclick="flexgrow(2)">Grow B-2</button>
+    <input type="number" id="grow3" placeholder="Grow B-3">
+    <button class="btn growBtn" onclick="flexgrow(3)">Grow B-3</button>
+</div>
+
+<div class="container2" id="flex-cont">
+    <h1 class="box box-1" id="box1">1</h1>
+    <h1 class="box box-2" id="box2">2</h1>
+    <h1 class="box box-3" id="box3">3</h1>
+</div>
+
+<script src="samps.js"></script>
+</body>
+</html>
